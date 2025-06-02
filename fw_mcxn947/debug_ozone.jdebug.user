@@ -1,0 +1,35 @@
+
+
+Breakpoint=/home/victor/.zephyr_ide/external/zephyr/drivers/ethernet/eth_nxp_enet_qos/eth_nxp_enet_qos_mac.c:78, State=BP_STATE_ON
+OpenDocument="main.c", FilePath="/home/victor/Documents/ats/Grid_ats_v3/fw_mcxn947/src/main.c", Line=325
+OpenDocument="debug_ozone.jdebug", FilePath="/home/victor/Documents/ats/Grid_ats_v3/fw_mcxn947/debug_ozone.jdebug", Line=0
+OpenDocument="cmsis_gcc.h", FilePath="/home/victor/.zephyr_ide/external/modules/hal/cmsis/CMSIS/Core/Include/cmsis_gcc.h", Line=940
+OpenDocument="fault_s.S", FilePath="/home/victor/.zephyr_ide/external/zephyr/arch/arm/core/cortex_m/fault_s.S", Line=69
+OpenDocument="kernel_arch_func.h", FilePath="/home/victor/.zephyr_ide/external/zephyr/arch/arm/include/cortex_m/kernel_arch_func.h", Line=55
+OpenDocument="timeout_q.h", FilePath="/home/victor/.zephyr_ide/external/zephyr/kernel/include/timeout_q.h", Line=42
+OpenDocument="kthread.h", FilePath="/home/victor/.zephyr_ide/external/zephyr/kernel/include/kthread.h", Line=144
+OpenDocument="ksched.h", FilePath="/home/victor/.zephyr_ide/external/zephyr/kernel/include/ksched.h", Line=152
+OpenDocument="dlist.h", FilePath="/home/victor/.zephyr_ide/external/zephyr/include/zephyr/sys/dlist.h", Line=199
+OpenDocument="sem.c", FilePath="/home/victor/.zephyr_ide/external/zephyr/kernel/sem.c", Line=96
+OpenDocument="http_server_core.c", FilePath="/home/victor/.zephyr_ide/external/zephyr/subsys/net/lib/http/http_server_core.c", Line=879
+OpenDocument="reset.S", FilePath="/home/victor/.zephyr_ide/external/zephyr/arch/arm/core/cortex_m/reset.S", Line=85
+OpenDocument="eth_nxp_enet_qos_mac.c", FilePath="/home/victor/.zephyr_ide/external/zephyr/drivers/ethernet/eth_nxp_enet_qos/eth_nxp_enet_qos_mac.c", Line=57
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=2, w=1167, h=144, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=3, w=1167, h=438, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Break & Tracepoints", DockArea=BOTTOM, x=0, y=0, w=1208, h=462, TabPos=0, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=1167, h=224, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=1, w=1167, h=665, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=583, h=1489, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=1208, h=462, TabPos=1, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=2626, h=493, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Vector Catches", SortCol="", SortOrder="ASCENDING", VisibleCols=["";"Vector Catch";"Description"], ColWidths=[50;300;2928]
+TableHeader="Break & Tracepoints", SortCol="", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;196;1333]
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[534;485;116;100;100;728]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[239;590;100;100;203;100]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[1372;100;100;100;1960]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[604;112;182;100;168;135]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;623;100;1377]

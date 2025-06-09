@@ -1,0 +1,10 @@
+/ {
+zephyr,user {
+    shift_reg_ser_gpios = <&gpio0 14 GPIO_ACTIVE_HIGH>;
+    shift_reg_clk_gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
+    shift_reg_clr_gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+    shift_reg_output_enable_gpios = <&gpio5 4 GPIO_ACTIVE_HIGH>;
+    shift_reg_lat_gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
+    shift_reg_num_instances = <2>;
+};
+};

@@ -1,0 +1,9 @@
+board:
+  name: ats_mcxn947
+  full_name: ATS-MCXN947
+  vendor: nxp
+  socs:
+  - name: mcxn947
+    variants:
+    - name: qspi
+      cpucluster: 'cpu0'

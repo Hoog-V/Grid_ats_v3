@@ -37,8 +37,13 @@ add_custom_target(sample_server_cert
 
 option(INCLUDE_HTML_CONTENT "Include the HTML content" ON)
 
-target_sources(app PRIVATE src/main.c)
-
+target_sources(app PRIVATE src/main.c 
+                           src/error_handling/error_handling.c
+                           src/shift_reg/shift_reg.c
+                  )
+target_include_directories(app PUBLIC src/error_handling
+                                      src/shift_reg
+                                      )
 set(gen_dir ${ZEPHYR_BINARY_DIR}/include/generated/)
 
 target_sources_ifdef(CONFIG_NET_SAMPLE_WEBSOCKET_SERVICE app PRIVATE src/ws.c)
